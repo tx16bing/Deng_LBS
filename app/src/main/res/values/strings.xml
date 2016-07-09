@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="longitude">longitude</string>
+    <string name="latitude">latitude</string>
+    <string name="input_your_longitude">Input your longitude</string>
+    <string name="input_your_latitude">Input your latitude</string>
+    <string name="location">location</string>
+    <string name="delete">delete</string>
+    <string name="reset">reset</string>
+    <string name="clear">clear</string>
+    <string name="normal">normal</string>
+    <string name="satellite">satellite</string>
+    <string name="traffic">traffic</string>
+    <string name="heat">heat</string>
+
+</resources>

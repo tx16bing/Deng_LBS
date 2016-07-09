@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.deng.lbs.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/init_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:text="百度地图集成" />
+
+            <Button
+                android:id="@+id/overlay_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:text="图层，覆盖物" />
+
+            <Button
+                android:id="@+id/geometry_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:text="几何图形覆盖物" />
+
+            <Button
+                android:id="@+id/poi_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:text="POI搜索" />
+
+            <Button
+                android:id="@+id/route_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:text="线路规划" />
+
+            <Button
+                android:id="@+id/location_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:text="百度定位" />
+
+            <Button
+                android:id="@+id/nearby_poi_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:text="poi搜索附近" />
+
+            <Button
+                android:id="@+id/navigation_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:text="搜索导航" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="longitude">经度：</string>
+	<string name="input_your_longitude">请输入你所在位置的经度</string>
+	<string name="latitude">纬度：</string>
+	<string name="input_your_latitude">请输入您所有位置的纬度</string>
+	<string name="location">定位</string>
+	<string name="delete">删除</string>
+	<string name="reset">重置</string>
+	<string name="clear">清除</string>
+	<string name="normal">普通</string>
+	<string name="satellite">卫星</string>
+	<string name="traffic">交通</string>
+	<string name="heat">热力</string>
+
+</resources>
