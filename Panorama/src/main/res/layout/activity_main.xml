@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_horizontal_margin">
+
+    <Button
+        android:id="@+id/bt_panorama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="panorama"
+        android:text="基本全景图" />
+
+    <Button
+        android:id="@+id/bt_panorama_controller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:onClick="panoramaController"
+        android:text="全景图控制" />
+
+    <Button
+        android:id="@+id/bt_panorama_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:onClick="panoramaController"
+        android:text="全景图覆盖物" />
+
+    <Button
+        android:id="@+id/bt_panorama_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:onClick="panoramaAlbum"
+        android:text="全景图相册" />
+
+</LinearLayout>

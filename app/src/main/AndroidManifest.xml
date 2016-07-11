@@ -83,7 +83,6 @@
         </activity>
         <activity android:name=".MapNavigationMainActivity">
         </activity>
-
     </application>
 
 </manifest>

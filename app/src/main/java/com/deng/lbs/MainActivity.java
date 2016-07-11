@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.location_btn).setOnClickListener(this);
         findViewById(R.id.nearby_poi_btn).setOnClickListener(this);
         findViewById(R.id.navigation_btn).setOnClickListener(this);
+        findViewById(R.id.panorama_btn).setOnClickListener(this);
     }
 
     @Override
